@@ -1,34 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+h2{
+    border-bottom: 2px dashed orangered;
 }
-.one{
-    width: 600px;
-    text-align: center;
-    border: 2px solid black;
-    margin: 10px auto;
-    padding: 20px;
-
-}
-.one h2{
-    position: relative;
-    font-weight: bold;
-    width: 100%;
-}
-.one h2::after{
-    content: ' ';
-    width: 100px;
-    height: 3px;
-    background-color: rgb(185, 75, 1);
-    position: absolute;
-    bottom: 0;
-    border-radius: 10px;
-}
-
-.one p{
-    border: 5px solid rgb(0, 0, 0);
-    margin: 40px;
-    padding: 20px;
-    outline: 10px solid rgb(110, 94, 1);
+div > p{
+    background-color: gray;
 }

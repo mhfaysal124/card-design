@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Document Structure</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <title>css combinators</title>
 </head>
 <body>
 
+    <section class="container">
+        <h2>Child selector</h2>
+        <p>The child selector (>) selects all elements that are the children of a specified element.</p>
+        <div>
+            <p>paragraph 1 in the div</p>
+            <p>paragraph 2 in the div</p>
+            <section>
+                <p>Paragraph 4 in the div (inside a section element)</p>
+            </section>
+            <p>paragraph 5 in the div.</p>
+            <p>paragraph 6 in the div.</p>
+        </div>
 
-   <div class="one">
-    <h2>CSS Outline</h2>
-    <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, corrupti.</p>
+    </section>
 
-    <input class="form-control p-2 m-2" type="email" name="email" id="email" placeholder="Write your email..." required>
-    <input class="form-control p-2 m-2" type="password" name="pass" id="pass" placeholder="make a strong password" required maxlength="16">
-    <button class="btn btn-success">send you quiary</button>
-    
-   </div>
-    
+
 
 
 
